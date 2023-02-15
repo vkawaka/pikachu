@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 100px 1fr 50px;
+    padding: 70px 70px 24px 70px ;
+    background-color: #f5cf06;
+}
+
+header{
+    background-color: rgb(189, 22, 100);
+}
+
+main{
+    background-color: rgb(102, 11, 129);
+}
+
+footer{
+    background-color: rgb(15, 14, 104);
+}
